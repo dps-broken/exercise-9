@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --para-text-size:20px;
+    --hadding-text-size:40px;
+    --main-color:#5D5DFF;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.para-text{
+    font-size: var(--para-text-size);
+}
+.hadding-text{
+    font-size: var(--hadding-text-size);
+}
+.color-code-bg{
+    background-color: var(--main-color);
+}
+.color-code{
+    color: var(--main-color);
+}
+h1{
+    font-size: 56px;
+}
+.landing-page-video{
+    background-image: url('./assets/hero-bg.png');
+    background-size: cover;
+    background-position: top;
+    height: 576px;
+}
+.play-btn{
+    height: 5vmax;
+    width: 5vmax;
+    border-radius: 50%;
+}
+.second-page-card-class{
+    width: 29%;
+    min-width: 300px;
+    max-width: 500px;
+    min-height: 300px;
+}
+.third-page-content-card{
+    height: 300px;
+    width: 40%;
+    min-width: 300px;
+}
+.third-page-image-card{
+    height: 400px;
+    width: 40%;
+    min-width: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.third-page-image-card1{
+    background-image: url('./assets/Illustration.png');
+}
+.third-page-image-card2{
+    background-image: url('./assets/Illustration1.png');
+}
+.third-page-image-card3{
+    background-image: url('./assets/Illustration2.png');
+}
+.fourth-page-card{
+    background-color: #25282C;
+    width: 302px;
+    color: white;
+    padding: 20px;
+}
+footer input{
+    background: rgba(255, 255, 255, 0.219);
+}
+.footer-link-left{
+    width: 40%;
+    min-width: 300px;
+}
+.footer-link-right{
+    width: 60%;
+    /* min-width: 600px; */
+}
+.footer-link-right-col{
+    width: 20%;
+    min-width: 200px;
+}
